@@ -1,6 +1,8 @@
 #include<stdio.h>
-/*
- *In this program I will use the function puts
+/**
+ * main - message
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
