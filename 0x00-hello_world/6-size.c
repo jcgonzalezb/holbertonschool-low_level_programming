@@ -6,17 +6,12 @@
  */
 int main(void)
 {
-char charType;
-int intType;
-long long int doubleType;
-float floatType;
 
-
-printf("Size of char: %zu byte\n", sizeof(charType));
-printf("Size of int: %zu bytes\n", sizeof(intType));
-printf("Size of long int: %zu bytes\n", sizeof(intType));
-printf("Size of long long int: %zu bytes\n", sizeof(doubleType));
-printf("Size of float: %zu bytes\n", sizeof(floatType));
+printf("Size of char: %lu byte\n", sizeof(char));
+printf("Size of int: %lu bytes\n", sizeof(int));
+printf("Size of long int: %lu bytes\n", sizeof(long));
+printf("Size of long long int: %lu bytes\n", sizeof(long long));
+printf("Size of float: %lu bytes\n", sizeof(float));
 
 return (0);
 
