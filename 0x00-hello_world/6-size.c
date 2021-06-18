@@ -8,7 +8,6 @@ int main(void)
 {
 char charType;
 int intType;
-long int intType;
 long long int doubleType;
 float floatType;
 
