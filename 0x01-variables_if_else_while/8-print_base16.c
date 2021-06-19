@@ -14,7 +14,7 @@ while (c <= '9')
 putchar(c);
 c++;
 }
-for (l = 'a'; l <= 'f'; ++c)
+for (l = 'a'; l <= 'f'; ++l)
 putchar(l);
 
 putchar('\n');
