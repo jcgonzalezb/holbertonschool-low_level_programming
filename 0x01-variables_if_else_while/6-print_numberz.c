@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-char c = '1';
-for (c = '1'; c <= '9'; ++c)
+
+for (int c = 1; c <= 9; ++c)
+{
 putchar(c);
+}
 putchar('\n');
 return (0);
 }
