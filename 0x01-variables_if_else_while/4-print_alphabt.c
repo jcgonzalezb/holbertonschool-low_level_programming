@@ -7,8 +7,19 @@
 int main(void)
 {
 char c;
-for (c = 'a'; c <= 'd'; c = 'f'; c <= 'p'; c = 'r'; c <= 'z'; ++c)
+for (c = 'a'; c <= 'z'; ++c)
+{
+if (c == 'e')
+{
+}
+else if (c == 'q')
+{
+}
+else
+{
 putchar(c);
+}
+}
 putchar('\n');
 return (0);
 }
