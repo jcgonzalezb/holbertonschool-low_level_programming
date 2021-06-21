@@ -17,12 +17,12 @@ _putchar(int)
 }
 else if (n == 0)
 {
-_putchar('0')
+_putchar('0');
 }
 else
 {
 int = int * -1
-_putchar(int)
+_putchar(int);
 }
 _putchar('\n');
 }
