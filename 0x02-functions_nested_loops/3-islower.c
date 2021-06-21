@@ -4,7 +4,7 @@
 #include <ctype.h>
 /**
  * _islower - checks for lowercase character
- * c: letter
+ * @c: letter
  * Return: 1 if c is lowercase, 0 otherwise.
  */
 
