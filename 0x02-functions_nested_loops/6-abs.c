@@ -15,13 +15,12 @@ _putchar(n);
 }
 else if (n == 0)
 {
-_putchar('0');
+return (0);
 }
 else
 {
 n = n * -1;
 _putchar(n);
 }
-
 _putchar('\n');
 }
