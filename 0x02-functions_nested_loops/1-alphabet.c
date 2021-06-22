@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <holberton.h>
-#include <stdlib.h>
+#include "holberton.h"
 /**
  * main - Prints the alphabet, in lowercase.
  *
