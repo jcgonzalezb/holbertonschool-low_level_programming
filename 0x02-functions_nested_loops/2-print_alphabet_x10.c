@@ -1,17 +1,9 @@
-#include <stdio.h>
-#include <holberton.h>
-#include <stdlib.h>
+#include "holberton.h"
 /**
- * main - Prints the alphabet, in lowercase.
+ * print_alphabet - Prints the alphabet, in lowercase.
  *
- * Return: Always 0 (Success)
+ * Return: Alphabet (Success)
  */
-
-int main(void)
-{
-print_alphabet();
-return (0);
-}
 
 void print_alphabet(void)
 {
