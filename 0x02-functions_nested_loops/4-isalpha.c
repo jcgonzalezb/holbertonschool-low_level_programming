@@ -1,10 +1,7 @@
-#include <stdio.h>
-#include <holberton.h>
-#include <stdlib.h>
-#include <ctype.h>
+#include "holberton.h"
 /**
  * _isalpha - checks for alphabetic character.
- * c: letter
+ * @c: letter
  * Return: 1 if c is a letter, lowercase or uppercase, 0 otherwise.
  */
 
