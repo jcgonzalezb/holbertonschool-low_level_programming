@@ -13,8 +13,8 @@ r = r % 10;
 if (r < 0)
 {
 r *= -1;
- }
-return('0' + r);
-return(r);
+}
+return (r);
+return (r);
 
 }
