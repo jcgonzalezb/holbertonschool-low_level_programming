@@ -2,15 +2,15 @@
 
 /**
  * _abs - Computes the absolute value of an integer.
- * @int: number
+ * @n: number
  * Return: Absolute value of an integer.
  */
 
-int _abs(int)
+int _abs(int n)
 {
-if (int > 0)
+if (n > 0)
 {
-_putchar(int)
+_putchar(n);
 }
 else if (n == 0)
 {
@@ -18,8 +18,8 @@ _putchar('0');
 }
 else
 {
-int = int * -1
-_putchar(int);
+n = n * -1;
+_putchar(n);
 }
 _putchar('\n');
 }
