@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <holberton.h>
-#include <stdlib.h>
-#include <ctype.h>
+#include "holberton.h"
 /**
  * _islower - checks for lowercase character
  * @c: letter
