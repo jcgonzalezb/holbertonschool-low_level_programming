@@ -1,15 +1,22 @@
 #include <stdio.h>
 #include "holberton.h"
-#include <stdlib.h>
 /**
  * main - Prints "Holberton"
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main (void)
 {
-_putchar("Holberton");
+_putchar("H");
+_putchar("o");
+_putchar("l");
+_putchar("b");
+_putchar("e");
+_putchar("r");
+_putchar("t");
+_putchar("o");
+_putchar("n");
 _putchar('\n');
-return (0);
+ return (0);
 }
