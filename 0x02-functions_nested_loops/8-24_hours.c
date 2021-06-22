@@ -1,8 +1,6 @@
 #include "holberton.h"
 /**
  * jack_bauer - Every minute of the day of Jack Bauer
- * @m: minutes
- * @h: hours
  * Return: Every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
  */
 
