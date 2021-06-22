@@ -14,7 +14,7 @@ if (r < 0)
 {
 r *= -1;
 }
-return (r);
+_putchar(p);
 return (r);
 
 }
