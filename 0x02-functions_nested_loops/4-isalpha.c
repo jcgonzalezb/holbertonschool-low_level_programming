@@ -7,12 +7,17 @@
 
 int _isalpha(int c)
 {
-if ((c >= 'a' && c <= 'z') || (c <= 'A' && c <= 'Z'))
+for (i = 0; i < length; c++)
 {
-return (1);
-}
-else
+int c = 1;
+
+c &= s[i] >= 'a' && s[i] <= 'z';
+c &= s[i] >= 'A' && s[i] <= 'Z';
+c &= s[i] == ' ';
+
+if (!c)
 {
 return (0);
+}
 }
 }
