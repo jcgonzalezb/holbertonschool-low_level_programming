@@ -16,7 +16,7 @@ for (i = 0; i <= 9; i++)
 for (c = 0; c <= 9; c++)
 {
 n = i * c;
-_putchar('d');
+_putchar('0' + n);
 _putchar(',');
 _putchar(' ');
 }
