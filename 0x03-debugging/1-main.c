@@ -12,8 +12,8 @@ int i;
 printf("Infinite loop incoming :(\n");
 
 i = 0;
-/* value of i is not incresing after the while loop */
-while (i < 10)
+
+while (i < 10)/* value of i is not incresing after the while loop */
 {
 putchar(i);
 }
