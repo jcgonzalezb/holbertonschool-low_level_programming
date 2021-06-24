@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - causes an infinite loop. i not incresing after the while loop is done
+ * main - causes an infinite loop
  * Return: 0
  */
 
