@@ -1,7 +1,6 @@
-#include <stdio.h>
-
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
+#include <stdio.h>
 
 /**
  * Here you can find the declaration of all functions
