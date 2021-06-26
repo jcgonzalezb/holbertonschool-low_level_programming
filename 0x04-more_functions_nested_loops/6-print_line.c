@@ -19,5 +19,5 @@ _putchar('\n');
 
 for (b = 1; b <= n ; b++)
 _putchar(c);
-
+_putchar('\n')
 }
