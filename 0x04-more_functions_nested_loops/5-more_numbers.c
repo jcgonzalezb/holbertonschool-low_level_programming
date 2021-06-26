@@ -12,10 +12,13 @@ int m = 0;
 
 for (b = 1; b <= 10 ; ++b)
 {
-for (m = 0; m < 14; ++m)
+for (m = 0; m <= 14; ++m)
 {
-_putchar('0' + (m / 10));
-_putchar('0' + (m % 10));
+
+if (m / 10 > 0)  
+_putchar((m / 10) + '0');
+
+_putchar((m % 10)) + '0';
 }
 _putchar('\n');
 }
