@@ -10,15 +10,8 @@
 void print_line(int n)
 {
 
-int b;
-if (n <= '0')
-{
-_putchar('\n');
-}
-else
-{
-for (b = '1'; b <= n ; b++)
+for (n; n > 0 ; n--)
 _putchar('_');
 _putchar('\n');
-}
+
 }
