@@ -13,8 +13,8 @@ int a = n;
 
 for (a = n; a > 0 ; a--)
 {
+_putchar(' ');
 _putchar('\\');
 _putchar('\n');
 }
-_putchar('\n');
 }
