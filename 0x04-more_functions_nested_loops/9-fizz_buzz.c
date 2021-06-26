@@ -22,9 +22,9 @@ printf("Fizz");
 else if (c % 5 == 0)
 printf("Buzz");
 else
-printf("%d", i);
+printf("%d", c);
 
-if (i < 100)
+if (c < 100)
 printf(" ");
 }
 printf("\n");
