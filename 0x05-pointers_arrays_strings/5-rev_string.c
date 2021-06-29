@@ -22,8 +22,8 @@ i++;
 len = i;
 
 for (i = len - 1; i >= 0; i--, j++)
-tmp = s[i];
-s[i] = s[j];
-s[j] = tmp;
+tmp = s[j];
+s[j] = s[i];
+s[i] = tmp;
 
 }
