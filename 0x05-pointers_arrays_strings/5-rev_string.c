@@ -31,10 +31,10 @@ char rev;
 int a = 0;
 int b = (_strlen(s) - 1);
 
-while (b >= 0)
+while (s[b] >= 0)
 {
-rev = s[b];
-s[b] = s[a];
+rev = s[a];
+s[a] = s[b];
 s[a] = rev;
 a++;
 b--;
