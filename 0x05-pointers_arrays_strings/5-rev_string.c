@@ -24,6 +24,6 @@ len = i;
 for (i = len - 1; i >= 0; i--)
 re[j++] = s[i];
 
-return (s);
+return (re);
 
 }
