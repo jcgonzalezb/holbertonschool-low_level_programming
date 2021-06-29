@@ -31,12 +31,12 @@ char rev;
 int a = 0;
 int b = (_strlen(s) - 1);
 
-while (a != '\0')
+while (b > 0)
 {
 rev = s[a];
 s[a] = s[b];
 s[b] = rev;
-a--;
-b++;
+a++;
+b--;
 }
 }
