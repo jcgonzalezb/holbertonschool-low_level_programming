@@ -32,9 +32,11 @@ int a = 0;
 int b = (_strlen(s) - 1);
 
 
-for (a = b; a >= 0; a++, b--)
+for (a = b; a >= 0; a--, b++)
+{
 rev = s[a];
 s[a] = s[b];
 s[b] = rev;
+}
 
 }
