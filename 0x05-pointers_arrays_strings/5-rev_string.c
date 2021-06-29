@@ -35,7 +35,7 @@ while (a < b)
 {
 rev = s[a];
 s[a] = s[b];
-s[a] = rev;
+s[b] = rev;
 a++, b--;
 }
 }
