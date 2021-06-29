@@ -32,9 +32,9 @@ int a = 0;
 int b = (_strlen(s) - 1);
 
 
-for (a = b; i >= 0; i--, j++)
-tmp = s[j];
-s[j] = s[i];
-s[i] = tmp;
+for (a = b; a >= 0; a--, b++)
+tmp = s[b];
+s[b] = s[a];
+s[a] = tmp;
 
 }
