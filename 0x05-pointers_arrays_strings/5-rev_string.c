@@ -33,8 +33,8 @@ int b = (_strlen(s) - 1);
 
 
 for (a = b; a >= 0; a--, b++)
-rev = s[b];
-s[b] = s[a];
-s[a] = rev;
+rev = s[a];
+s[a] = s[b];
+s[b] = rev;
 
 }
