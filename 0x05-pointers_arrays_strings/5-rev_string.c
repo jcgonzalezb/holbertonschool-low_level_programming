@@ -22,7 +22,8 @@ i++;
 len = i;
 
 for (i = len - 1; i >= 0; i--)
-re[j++] = s[i];
+re[j] = s[i];
+j++;
 
 return (re);
 
