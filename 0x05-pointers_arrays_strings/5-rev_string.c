@@ -31,7 +31,7 @@ char rev;
 int a = 0;
 int b = (_strlen(s) - 1);
 
-while (s[a] != '\0')
+while (a < b)
 {
 rev = s[a];
 s[a] = s[b];
