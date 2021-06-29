@@ -36,7 +36,7 @@ while (a != '\0')
 rev = s[a];
 s[a] = s[b];
 s[b] = rev;
-a++;
-b--;
+a--;
+b++;
 }
 }
