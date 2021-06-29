@@ -33,9 +33,9 @@ int b = (_strlen(s) - 1);
 
 while (b >= 0)
 {
-rev = s[a];
-s[a] = s[b];
-s[b] = rev;
+rev = s[b];
+s[b] = s[a];
+s[a] = rev;
 a++;
 b--;
 }
