@@ -24,7 +24,7 @@ return (i);
  * including the terminating null byte (\0), to the buffer pointed to by dest.
  * @dest : copy source to this buffer
  * @src : source to copy
- * Return :  the pointer to dest
+ * Return:  the pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
