@@ -27,19 +27,20 @@ void puts_half(char *str)
 
 int n = 0;
 int m = 0;
+
 n = (_strlen(str) - 1) / 2;
 m = _strlen(str) / 2;
 
-if (_strlen(str) % 2 == 1)
+if (_strlen(str) % 2 == 0)
 {
-int i = n;
-for (i = n; str[i] != '\0' && i < _strlen(str); ++i)
+int i = m;
+for (i = m; str[i] != '\0' && i < _strlen(str); ++i)
 _putchar(str[i]);
 }
 else
 {
-int i = m;
-for (i = m; str[i] != '\0' && i < _strlen(str); ++i)
+int i = n;
+for (i = n; str[i] != '\0' && i < _strlen(str); ++i)
 _putchar(str[i]);
 }
 _putchar('\n');
