@@ -9,7 +9,7 @@
 int _strlen(char *s)
 {
 int i = 0;
-int m = 0;
+
 while (s[i] != '\0')
 i++;
 
@@ -25,8 +25,8 @@ return (i);
 void puts_half(char *str)
 {
 
-int n;
-
+int n = 0;
+int m = 0;
 n = (_strlen(str) - 1) / 2;
 m = _strlen(str) / 2;
 
