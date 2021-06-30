@@ -17,7 +17,6 @@ printf("%d", a[i]);
 putchar(',');
 putchar(' ');
 }
-printf("%d", a[n]);
 putchar('\n');
 
 }
