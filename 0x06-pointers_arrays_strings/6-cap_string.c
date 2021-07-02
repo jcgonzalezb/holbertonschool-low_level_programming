@@ -1,5 +1,11 @@
 #include "holberton.h"
 
+/**
+ * cap_string -  Function that capitalizes all words of a string.
+ * @str: String
+ * Return: Capitalizes all words of a string.
+ */
+
 char *cap_string(char *str)
 {
 int i, j;
@@ -29,4 +35,7 @@ str[i + 1] -= 32;
 }
 }
 }
+}
+return (str);
+
 }
