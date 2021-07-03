@@ -22,6 +22,9 @@ return (0);
 while (dest[i] != '\0')
 i++;
 
+if (src == 0)
+dest[i] = '\0';
+
 while (src[j] < src[n])
 {
 dest[i] = src[j];
@@ -29,11 +32,5 @@ i++;
 j++;
 }
 
-if (src == 0)
-{
-dest[i] = '\0';
-return (dest);
-}
-else
 return (dest);
 }
