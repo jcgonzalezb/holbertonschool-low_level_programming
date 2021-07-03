@@ -10,20 +10,25 @@
 char *leet(char *str)
 {
 
-int i, j;
+int i = 0;
+int j = 0;
 
-let = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L', '\0'};
+let = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 num = {4, 4, 3, 3, 0, 0, 7, 7, 1, 1};
 
-for (i = 0; str[i] != '\0'; i++)
+while (str[i] != '\0')
 {
-for (j = 0; let[j] != '\0'; j++)
+
+while (let[j] != '\0')
 {
 if (str[i] == let[j])
 {
 str[i] = num[j];
 }
+j++;
 }
+
+i++;
 }
 
 return (str);
