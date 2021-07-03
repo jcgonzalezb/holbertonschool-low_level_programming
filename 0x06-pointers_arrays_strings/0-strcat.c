@@ -45,6 +45,4 @@ _putchar(src[j]);
 
 printf("\n");
 
-return (dest);
-
 }
