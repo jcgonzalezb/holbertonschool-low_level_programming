@@ -23,7 +23,7 @@ while (dest[i] != '\0')
 i++;
 
 if (src == 0)
-dest[i] = '\0';
+src[0] = '\0';
 
 while (src[j] < src[n])
 {
