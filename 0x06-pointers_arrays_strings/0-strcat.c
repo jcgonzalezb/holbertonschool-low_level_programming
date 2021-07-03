@@ -43,8 +43,8 @@ _putchar(dest[i]);
 for (j = 0; j <= _strlen(src); ++j)
 _putchar(src[j]);
 
+printf("\n");
+
 return (dest);
 
-printf("\n");
- 
 }
