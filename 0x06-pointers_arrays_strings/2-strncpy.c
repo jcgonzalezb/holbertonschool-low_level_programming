@@ -1,31 +1,26 @@
 #include "holberton.h"
 
 /**
- * _strncpy- function should work exactly like strncpy
- * @dest : String
- * @src : String
- * @n : Integer
- * Return: function that copies a string
+ * _strncpy -  function should work exactly like strncpy
+ * @dest: String
+ * @src: String
+ * @n: Integer
+ * Return:  the pointer to dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
 
+if ((dest == 0) && (src == 0))
+return (0);
 
-if ((dest == NULL) && (src == NULL))
-return (NULL);
+int i;
 
-char *start = dest;
+for (i = 0; i != src[n]; i++)
+dest[i] = src[i];
 
-while (*src && n--)
-{
-*dest = *src;
-dest++;
-src++;
-}
+dest[i] = '\0';
 
-*dest = '\0';
-
-return (start);
+return (dest);
 
 }
