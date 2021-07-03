@@ -25,12 +25,14 @@ i++;
 if (src == 0)
 dest[i] = '\0';
 
+else
+{   
 while (src[j] < src[n])
 {
 dest[i] = src[j];
 i++;
 j++;
 }
-
+}
 return (dest);
 }
