@@ -37,13 +37,10 @@ int j;
 if (dest == 0)
 return (0);
 
-for (i = 0; dest[i] != '\0' && i < _strlen(dest); i++)
-_putchar(dest[i]);
+_strlen(dest) = n;
 
 for (j = 0; src[j] != '\0' && j < _strlen(src); j++)
-_putchar(src[j]);
-
-_putchar('\n');
+dest[n + j] = src[j];
 
 return (dest);
 
