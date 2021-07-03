@@ -1,25 +1,6 @@
 #include "holberton.h"
 
 /**
- * _strlen- returns the length of a string
- * @s : string. '\0' (null character)
- * Return: Length of a string
- */
-
-int _strlen(char *s)
-{
-
-int i = 0;
-
-while (s[i] != '\0')
-i++;
-
-return (i);
-
-}
-
-
-/**
  * _strcat -  appends the src string to the dest string
  * overwriting the terminating null byte (\0) at the end
  * of dest, and then adds a terminating null byte
@@ -31,16 +12,22 @@ return (i);
 char *_strcat(char *dest, char *src)
 {
 
-int i;
-int j;
+int i = 0;
+int j = 0;
 
 if (dest == 0)
 return (0);
 
-_strlen(dest) = n;
+while (dest[i] != '\0')
+i++;
 
-for (j = 0; src[j] != '\0' && j < _strlen(src); j++)
-dest[n + j] = src[j];
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+i++;
+j++;
+}
+dest[i] = '\0';
 
 return (dest);
 
