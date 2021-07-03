@@ -22,15 +22,13 @@ return (0);
 while (dest[i] != '\0')
 i++;
 
-if (src == 0)
-return (dest);
-
-while (src[j] < src[n])
+while (src[j] != src[n])
 {
 dest[i] = src[j];
 i++;
 j++;
 }
 
+dest[i] = '\0';
 return (dest);
 }
