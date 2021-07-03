@@ -13,8 +13,8 @@ char *leet(char *str)
 int i = 0;
 int j = 0;
 
-int let [] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
-int num [] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
+int let [11] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+int num [11] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
 while (str[i] != '\0')
 {
@@ -22,9 +22,8 @@ while (str[i] != '\0')
 while (let[j] != '\0')
 {
 if (str[i] == let[j])
-{
 str[i] = num[j];
-}
+
 j++;
 }
 
