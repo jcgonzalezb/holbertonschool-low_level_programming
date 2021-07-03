@@ -13,9 +13,6 @@ int i = 0;
 int j = n;
 char rev;
 
-if (a == 0)
-return (0);
-
 while (i < j)
 {
 rev = a[i];
