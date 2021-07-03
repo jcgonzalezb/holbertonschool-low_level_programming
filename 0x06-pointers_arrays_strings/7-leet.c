@@ -10,18 +10,19 @@
 char *leet(char *str)
 {
 
-int i = 0;
-int j = 0;
+int i;
+int j;
 
 int let [] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 int num [] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
 for (i = 0; str[i] != '\0'; i++)
 {
-for (j = 0; points[j] != '\0'; j++)
+for (j = 0; let[j] != '\0'; j++)
 {
 if (str[i] == let[j])
 str[i] = num[j];
+
 }
 }
 
