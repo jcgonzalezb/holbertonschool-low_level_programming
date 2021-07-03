@@ -13,7 +13,7 @@ int i = 0;
 int j = n;
 char rev;
 
-while (a[i] < a[j])
+while (i < j)
 {
 rev = a[i];
 a[i] = a[j];
