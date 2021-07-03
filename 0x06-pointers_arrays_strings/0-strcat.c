@@ -31,9 +31,11 @@ return (i);
 char *_strcat(char *dest, char *src)
 {
 
-
 int i;
 int j;
+
+if (str == 0)
+return (0);
 
 for (i = 0; dest[i] != '\0' && i < _strlen(dest); i++)
 _putchar(dest[i]);
