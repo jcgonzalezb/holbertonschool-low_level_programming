@@ -34,13 +34,15 @@ char *_strcat(char *dest, char *src)
 int i;
 int j;
 
+int _strlen(char *dest) = n;
+
 if (dest == 0)
 return (0);
 
-for (i = 0; dest[i] != '\0' && i < _strlen(dest); ++i)
+for (i = 0; dest[i] != '\0' && i < _strlen(dest); i++)
 _putchar(dest[i]);
 
-for (j = 0; j <= _strlen(src); ++j)
+for (j = 0; src[j] != '\0' && j < _strlen(src); j++)
 _putchar(src[j]);
 
 return (dest);
