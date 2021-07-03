@@ -19,7 +19,7 @@ return (0);
 
 int i;
 
-for (i = 0; i != src[n]; i++)
+for (i = 0; src[i] != src[n]; i++)
 dest[i] = src[i];
 
 dest[i] = '\0';
