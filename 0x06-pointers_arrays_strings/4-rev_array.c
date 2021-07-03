@@ -22,6 +22,4 @@ a[j] = rev;
 i++, j--;
 }
 
-return (a);
-
 }
