@@ -37,14 +37,14 @@ int j;
 if (dest == 0)
 return (0);
 
-for (i = 0; dest[i] != '\0' && i < _strlen(dest); i++)
+for (i = 0; dest[i] != '\0' && i < _strlen(dest); ++i)
 _putchar(dest[i]);
 
-for (j = 0; j <= _strlen(src); j++)
+for (j = 0; j <= _strlen(src); ++j)
 _putchar(src[j]);
-
-_putchar('\n');
 
 return (dest);
 
+printf("\n");
+ 
 }
