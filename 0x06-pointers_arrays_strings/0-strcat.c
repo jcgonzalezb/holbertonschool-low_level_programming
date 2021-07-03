@@ -43,6 +43,6 @@ _putchar(src[i]);
 
 _putchar('\n');
 
-return (*dest);
+return (dest);
 
 }
