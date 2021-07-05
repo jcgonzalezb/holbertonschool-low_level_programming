@@ -15,7 +15,7 @@ int i;
 
 for (i = 0; s[i] < s[n]; i++)
 {
-s[i] = b
+s[i] = b;
 }
 
 return (s);
