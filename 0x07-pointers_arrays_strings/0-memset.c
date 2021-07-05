@@ -16,7 +16,7 @@ int i;
 if (s == 0)
 return (0);
 
-for (i = 0; s[i] < s[n]; i++)
+for (i = 0; i < n; i++)
 {
 s[i] = b;
 }
