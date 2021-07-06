@@ -13,9 +13,9 @@ int fil;
 int col;
 
 
-for (fil = 0, fil < 8; fil++)
+for (fil = 0; fil < 8; fil++)
 {
-for (col = 0, col < 8; col++)
+for (col = 0; col < 8; col++)
 {
 _putchar(a[fil][col]);
 }
