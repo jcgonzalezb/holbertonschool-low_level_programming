@@ -30,5 +30,3 @@ haystack++;
 }
 return (NULL);
 }
-
-}
