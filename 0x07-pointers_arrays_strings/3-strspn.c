@@ -18,7 +18,7 @@ while (*accept)
 
 while (*s)
 {
-if (*s == *accept)
+if (*accept == *s)
 {
 i++;
 }
