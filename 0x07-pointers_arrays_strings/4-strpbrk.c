@@ -14,13 +14,16 @@ char *_strpbrk(char *s, char *accept)
 
 while (*s)
 {
+
+while (*accept)
+{
 if (*s == *accept)
 return (s);
 
+accept++;
+}
+
 s++;
 }
-return (*s == c ? s : NULL);
-}
-
-
+return (*s == *accept ? s : NULL);
 }
