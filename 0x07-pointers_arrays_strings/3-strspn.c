@@ -22,8 +22,12 @@ for (j = 0; accept[j]; j++)
 
 if (*s == accept[j])
 {
-i++;
+break;
 }
+}
+
+if (!accept[j])
+break;
 }
 
 s++;
