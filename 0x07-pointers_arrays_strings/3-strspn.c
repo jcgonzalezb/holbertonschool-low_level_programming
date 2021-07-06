@@ -24,7 +24,7 @@ i++;
 }
 accept++;
 }
-i++
+i++;
 }
 return (i);
 }
