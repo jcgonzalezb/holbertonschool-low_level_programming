@@ -11,18 +11,22 @@
 unsigned int _strspn(char *s, char *accept)
 {
 
-unsigned int *count = CountArray(s);
-unsigned int i;
-unsigned int count_char = 0;
+unsigned int i = 0;
 
-for (i = 0; *(accept + i); i++)
+while(*s)
 {
-if (count[*(accept + i)] != 0)
+
+while(*accept)
 {
-count_char++;
-count[*(accept + i)]--;
+if (*accept == *s)
+{
+i++;
 }
+accept++;
 }
 
-return (count_char);
+s++;
+}
+
+return (i);
 }
