@@ -12,25 +12,23 @@ unsigned int _strspn(char *s, char *accept)
 {
 
 unsigned int i = 0;
-unsigned int j = 0;
+char *accept_p;
 
-while (*s)
+
+for (i = 0; s[i]; ++i)
 {
 
-for (j = 0; accept[j]; j++)
+for (accept_p = accept; *accept_p; ++accept_p)
 {
 
-if (*s == accept[j])
+if (s[i] == *accept_pos)
 {
 break;
 }
 }
 
-if (!accept[j])
+if (!*accept_p)
 break;
-}
-
-s++;
 }
 
 return (i);
