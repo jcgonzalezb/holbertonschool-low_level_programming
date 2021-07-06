@@ -24,6 +24,8 @@ if (*s == accept[i])
 {
 return (s);
 }
+
+}
 s++;
 }
 return ('\0');
