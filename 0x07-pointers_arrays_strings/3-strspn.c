@@ -20,7 +20,7 @@ for (i = 0; *(accept + i); i++)
 if (count[*(accept + i)] != 0)
 {
 count_char++;
-count [*(accept + i)]--;
+count[*(accept + i)]--;
 }
 }
 
