@@ -21,7 +21,7 @@ for (i = 0; s[i]; ++i)
 for (accept_p = accept; *accept_p; ++accept_p)
 {
 
-if (s[i] == *accept_pos)
+if (s[i] == *accept_p)
 {
 break;
 }
