@@ -25,5 +25,5 @@ accept++;
 
 s++;
 }
-return (*s == *accept ? s : NULL);
+return (NULL);
 }
