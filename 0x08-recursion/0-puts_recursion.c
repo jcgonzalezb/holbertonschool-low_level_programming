@@ -15,4 +15,5 @@ _puts_recursion(s);
 }
 else
 _putchar('\n');
+return;
 }
