@@ -1,11 +1,15 @@
 #include "holberton.h"
 
 /**
- * _memset -  function that fills memory with a constant byte.
+ * main - program that prints its name, followed by a new line.
  * @s : String
  * @n : integer
  * @b : character 
- * Return: A pointer to the memory area s
+ * Return: Name of the program
  */
 
-
+int main(int argc, char *argv[])
+{
+printf("%s\n", argv[0]);
+   return 0;
+}
