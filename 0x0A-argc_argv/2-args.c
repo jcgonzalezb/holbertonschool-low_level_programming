@@ -7,11 +7,18 @@
  * Return: Prints all arguments it receives.
  */
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
 int i;
+int sum = 0;
 if (argc > 0)
+{
 for (i = 1; i < argc; i++)
-printf("%d\n", i);
+{
+printf("%s\n", argv[i]);
+sum += atoi(argv[i]);
+}
 
+}
+return (0);
 }
