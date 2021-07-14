@@ -21,9 +21,7 @@ printf("0\n");
 return (0);
 }
 
-if (argc >= 2)
-{
-for (i = 1; i < argc; i++)
+while (i < argc)
 {
 if (atoi(argv[i]) >= '0' && atoi(argv[i]) <= '9')
 {
@@ -34,6 +32,7 @@ else
 printf("Error\n");
 return (1);
 }
+i++;
 }
 printf("%d\n", sum);
 }
