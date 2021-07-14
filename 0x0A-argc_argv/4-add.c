@@ -31,14 +31,13 @@ if ((atoi(argv[i]) >= 'a' && atoi(argv[i]) <= 'z')
 printf("Error\n");
 return (1);
 }
-}
 
-for (i = 1; i < argc; i++)
+else
 {
 sum = sum + atoi(argv[i]);
 }
+}
 printf("%d\n", sum);
 }
-
 return (0);
 }
