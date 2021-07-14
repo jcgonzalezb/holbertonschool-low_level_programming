@@ -18,9 +18,12 @@ int sum = 0;
 if (argc == 1)
 printf("0\n");
 
+if (argc > 1)
+{
 for (i = 1; i < argc; i++)
 {
-if ((argv[i] >= 'a' && argv[i] <= 'z') || (argv[i] >= 'A' && argv[i] <= 'Z'))
+if ((atoi(argv[i]) >= 'a' && atoi(argv[i]) <= 'z')
+	|| (atoi(argv[i]) >= 'A' && atoi(argv[i]) <= 'Z'))
 {
 printf("Error\n");
 return (1);
@@ -31,7 +34,8 @@ for (i = 1; i < argc; i++)
 {
 sum = sum + atoi(argv[i]);
 }
-
 printf("%d\n", sum);
+}
+
 return (0);
 }
