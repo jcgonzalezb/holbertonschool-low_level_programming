@@ -25,13 +25,11 @@ if (argc >= 2)
 {
 for (i = 1; i < argc; i++)
 {
-if ((atoi(argv[i]) >= 'a' && atoi(argv[i]) <= 'z')
-	|| (atoi(argv[i]) >= 'A' && atoi(argv[i]) <= 'Z'))
+if (isalpha(atoi(argv[i])))
 {
 printf("Error\n");
 return (1);
 }
-
 else
 {
 sum = sum + atoi(argv[i]);
