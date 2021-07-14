@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 
-int i;
+int i = 1;
 int sum = 0;
 
 if (argc == 1)
@@ -23,14 +23,15 @@ return (0);
 
 while (i < argc)
 {
-if (atoi(argv[i]) >= '0' && atoi(argv[i]) <= '9')
-{
-sum = sum + atoi(argv[i]);
-}
-else
+if ((atoi(argv[i]) >= 'a' && atoi(argv[i]) <= 'z')
+	|| (atoi(argv[i]) >= 'A' && atoi(argv[i]) <= 'Z'))
 {
 printf("Error\n");
 return (1);
+}
+else
+{
+sum = sum + atoi(argv[i]);
 }
 i++;
 }
