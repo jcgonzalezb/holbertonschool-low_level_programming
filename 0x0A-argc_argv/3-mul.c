@@ -9,24 +9,21 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-int mult = 1;
+int a;
+int b;
+int c;
 
-if (argc == 1)
+if (argc != 3)
 {
 printf("Error\n");
 return (1);
 }
 
-if (argc >= 2)
-{
-for (i = 1; i < argc; i++)
-{
-mult = mult *atoi(argv[i]);
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+c = a *b;
 
-}
-printf("%d\n", mult);
-}
+printf("%d\n", c);
 
 return (0);
 }
