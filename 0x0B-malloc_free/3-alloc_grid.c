@@ -9,12 +9,14 @@
  * Return: Pointer to a 2 dimensional array of integers.
  */
 
-
 int **alloc_grid(int width, int height)
 {
-int **array = NULL;
+int **array;
 int i = 0;
 int j = 0;
+
+if (width <= 0 || height <= 0)
+return (NULL);
 
 array = malloc(height * sizeof(int *));
 
@@ -40,5 +42,4 @@ array[i][j] = 0;
 }
 }
 return (array);
-
 }
