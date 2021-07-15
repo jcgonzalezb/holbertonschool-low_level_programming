@@ -1,0 +1,39 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "holberton.h"
+
+/**
+ * alloc_grid - Pointer to a 2 dimensional array of integers.
+ * @width : Amount of columns
+ * @height : Amount of rows
+ * Return: Pointer to a 2 dimensional array of integers.
+ */
+
+
+int **alloc_grid(int width, int height)
+{
+int **array = NULL;
+int i = 0;
+int j = 0;
+
+array = malloc(height * sizeof(int));
+
+if (array == NULL)
+return (NULL);
+
+
+for (i = 0; i < height; ++i)
+{
+array[i] = malloc(width * sizeof(int));
+
+if (array[i] == NULL)
+return (NULL);
+
+for (j = 0; j < width; ++j)
+{
+array[i][j] = 0;
+}
+}
+return (array);
+
+}
