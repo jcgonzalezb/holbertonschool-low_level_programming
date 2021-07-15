@@ -18,7 +18,6 @@ int i = 0;
 
 if (size <= 0)
 return (NULL);
-
 arr = malloc(sizeof(char) * size);
 
 if (arr == NULL)
