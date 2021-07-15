@@ -35,3 +35,4 @@ i++;
 }
 
 return (duplicate_str);
+}
