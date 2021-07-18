@@ -31,6 +31,7 @@ return (NULL);
 for (i = 0; i <= dif; i++)
 ptr[i] = min + i;
 
-return (ptr);
+ptr[i] = '\0';
 
+return (ptr);
 }
