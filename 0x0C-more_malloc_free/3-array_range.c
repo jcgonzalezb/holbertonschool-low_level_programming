@@ -28,7 +28,7 @@ ptr = malloc(dif);
 if (ptr == NULL)
 return (NULL);
 
-for (i = 0; i < dif; i++)
+for (i = 0; i <= dif; i++)
 ptr[i] = min + i;
 
 return (ptr);
