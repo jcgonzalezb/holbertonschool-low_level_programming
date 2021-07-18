@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "holberton.h"
 
 /**
@@ -21,17 +20,15 @@ int dif, i;
 if (min > max)
 return (NULL);
 
-dif = max - min;
+dif = max - min + 1;
 
-ptr = malloc(dif);
+ptr = malloc(dif *sizeof(int));
 
 if (ptr == NULL)
 return (NULL);
 
-for (i = 0; i <= dif; i++)
+for (i = 0; i < dif; i++)
 ptr[i] = min + i;
-
-ptr[i] = '\0';
 
 return (ptr);
 }
