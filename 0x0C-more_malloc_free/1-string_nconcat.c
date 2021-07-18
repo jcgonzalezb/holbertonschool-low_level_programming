@@ -33,6 +33,7 @@ len1++, i++;
 
 while (*(s2 + j))
 len2++, j++;
+len2++
 
 if (n >= len2)
 {
