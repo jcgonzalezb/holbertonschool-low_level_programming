@@ -2,9 +2,8 @@
 #define DOG_H
 
 /**
- * dog_t - New name for the type struct dog
+ * dog_t - Typedef for the type struct dog
  */
-
 typedef struct dog dog_t;
 
 /**
