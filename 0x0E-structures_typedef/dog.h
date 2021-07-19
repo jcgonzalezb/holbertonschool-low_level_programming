@@ -4,7 +4,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-typedef struct dog_structure{
+struct dog_structure{
 char* name;
 float* age;
 char* owner;
