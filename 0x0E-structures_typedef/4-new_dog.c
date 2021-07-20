@@ -44,7 +44,7 @@ dog_t *dog1;
 char *copy_of_name;
 char *copy_of_owner;
 
-dog1 = malloc(sizeof(dog_t)); /* validate if dog1 initiated correctly */
+dog1 = malloc(sizeof(dog_t));
 if (dog1 == NULL)
 return (NULL);
 
