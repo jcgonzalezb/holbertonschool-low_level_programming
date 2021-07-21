@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stlib.h>
 #include "functions_pointers.h"
 /**
  * print_name - function that prints a name.
@@ -16,6 +17,6 @@ return;
 if (f == NULL)
 return;
 
-f(name)
+f(name);
 }
 
