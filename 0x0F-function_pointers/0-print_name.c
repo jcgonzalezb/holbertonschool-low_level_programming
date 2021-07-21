@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stlib.h>
 #include "function_pointers.h"
 /**
@@ -19,4 +18,3 @@ return;
 
 f(name);
 }
-
