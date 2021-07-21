@@ -1,5 +1,5 @@
-#ifndef FUNCTION_POINTERS_H
-#define FUNCTION_POINTERS_H
+#ifndef FUNCTION_POINTERS
+#define FUNCTION_POINTERS
 
 /**
  * Here you can find the declaration of all functions
