@@ -38,7 +38,7 @@ if (y < x - 1)
 }
 else
 {
-	printf("%.2hhx ", b[y]);
+	printf("%.2hhx", b[y]);
 }
 
 }
