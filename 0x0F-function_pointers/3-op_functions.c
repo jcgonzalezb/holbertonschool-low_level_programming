@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "3-calc.h"
-
 /**
- * op_add - function
+ * op_add - add
  * @a: number
  * @b: number
  * Return: number
@@ -15,7 +11,7 @@ return (a + b);
 }
 
 /**
- * op_sub - function
+ * op_sub - subtract
  * @a: number
  * @b: number
  * Return: number
@@ -27,7 +23,7 @@ return (a - b);
 }
 
 /**
- * op_mul - function
+ * op_mul - multiply
  * @a: number
  * @b: number
  * Return: number
@@ -39,7 +35,7 @@ return (a * b);
 }
 
 /**
- * op_div - function
+ * op_div - divide
  * @a: number
  * @b: number
  * Return: number
@@ -51,7 +47,7 @@ return (a / b);
 }
 
 /**
- * op_mod - function
+ * op_mod - modulus for remainder
  * @a: number
  * @b: number
  * Return: number
