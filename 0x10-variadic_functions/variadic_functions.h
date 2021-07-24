@@ -6,6 +6,19 @@
 #include <stdlib.h>
 
 /**
+ * struct print_fn - a format spec associated with a print function
+ * @format: the format specifier
+ * @fn: the print function
+ *
+ * Description:
+ */
+typedef struct print_fn
+{
+char format;
+int (*fn)(va_list);
+} print_fn_t;
+
+/**
  * Here you can find the declaration of all functions
  */
 
