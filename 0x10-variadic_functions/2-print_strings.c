@@ -5,7 +5,7 @@
  * @n: Amount of parameters.
  * @...: the unnamed arguments
  * @separator: comma
- * Return: A list of integers
+ * Return: A list of characters.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
