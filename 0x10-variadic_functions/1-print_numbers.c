@@ -20,7 +20,7 @@ if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
-printf("%d", va_arg(args, int));
+printf("%d", va_arg(ptr, int));
 if (separator != NULL && i != n)
 printf("%s", separator);
 }
