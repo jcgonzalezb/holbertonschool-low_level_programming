@@ -21,7 +21,7 @@ if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
-j = va_arg(ptr, int));
+j = va_arg(ptr, char *));
 
 if (j == NULL)
 printf("(nil)");
