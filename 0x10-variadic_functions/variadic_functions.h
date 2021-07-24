@@ -2,6 +2,8 @@
 #define VARIADIC_FUNCTIONS_H
 
 #include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * Here you can find the declaration of all functions
