@@ -15,10 +15,9 @@ va_list ptr;
 unsigned int i;
 char *j;
 
-va_start(ptr, n);
-
 if (n > 0)
 {
+va_start(ptr, n);
 for (i = 1; i <= n; i++)
 {
 j = va_arg(ptr, char *));
