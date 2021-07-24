@@ -1,0 +1,38 @@
+#include "variadic_functions.h"
+
+/**
+ * print_strings - that prints strings, followed by a new line.
+ * @n: Amount of parameters.
+ * @...: the unnamed arguments
+ * @separator: comma
+ * Return: A list of integers
+ */
+
+void print_strings(const char *separator, const unsigned int n, ...)
+{
+
+va_list ptr;
+unsigned int i;
+char *j;
+
+va_start(ptr, n);
+
+if (n > 0)
+{
+for (i = 1; i <= n; i++)
+{
+j = va_arg(ptr, int));
+
+if (j == NULL)
+printf("(nil)");
+else
+printf("%s", j);
+
+if (separator != NULL && i != n)
+printf("%s", separator);
+}
+va_end(ptr);
+}
+
+printf("\n");
+}
