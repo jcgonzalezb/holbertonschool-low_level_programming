@@ -6,17 +6,18 @@
 #include <stdlib.h>
 
 /**
- * struct print_fn - a format spec associated with a print function
- * @format: the format specifier
- * @fn: the print function
+ * struct printc - Struct for printing function
+ * @symbol: the symbol that specity data type
+ * @f: the print function
  *
  * Description:
  */
-typedef struct print_fn
+typedef struct printc
 {
-char format;
-int (*fn)(va_list);
-} print_fn_t;
+char symbol;
+void (*f)(va_list);
+} printc_f;
+
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
