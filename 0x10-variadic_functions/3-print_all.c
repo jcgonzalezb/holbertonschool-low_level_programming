@@ -41,7 +41,7 @@ void print_string(va_list ptr)
 {
 char *a;
 
-j = va_arg(ptr, char *);
+a = va_arg(ptr, char *);
 
 if (a == NULL)
 {
@@ -64,10 +64,10 @@ int i, j = 0;
 va_list ptr;
 
 printc_f options[] = {
-{"c", print_char},
-{"i", print_int},
-{"f", print_float},
-{"s", print_string},
+{'c', print_char},
+{'i', print_int},
+{'f', print_float},
+{'s', print_string},
 {'\0', NULL}
 };
 
@@ -82,7 +82,7 @@ if (options[i].symbol == format[j])
 {
 separator = ", ";
 printf("%s", separator);
-options[i].f(va_list);
+options[i].f(ptr);
 }
 i++;
 }
