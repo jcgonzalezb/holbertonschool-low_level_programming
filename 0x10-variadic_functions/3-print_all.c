@@ -80,9 +80,9 @@ while (options[i].symbol != '\0')
 {
 if (options[i].symbol == format[j])
 {
-separator = ", ";
 printf("%s", separator);
 options[i].f(ptr);
+separator = ", ";
 }
 i++;
 }
