@@ -1,9 +1,10 @@
+#include <stdarg.h>
+#include <stdio.h>
 #include "variadic_functions.h"
 
 /**
  * print_strings - that prints strings, followed by a new line.
  * @n: Amount of parameters.
- * @...: the unnamed arguments
  * @separator: comma
  * Return: A list of characters.
  */
