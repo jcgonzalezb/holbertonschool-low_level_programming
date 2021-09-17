@@ -6,19 +6,20 @@
 #include <string.h>
 
 /**
- * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
+ * struct dlistint_s - doubly linked list
+ * @n: integer
+ * @prev: points to the previous node
  * @next: points to the next node
  *
- * Description: singly linked list node structure
+ * Description: doubly linked list node structure
+ * 
  */
-typedef struct list_s
+typedef struct dlistint_s
 {
-    char *str;
-    unsigned int len;
-    struct list_s *next;
-} list_t;
+    int n;
+    struct dlistint_s *prev;
+    struct dlistint_s *next;
+} dlistint_t;
 
 int _putchar(char c);
 size_t print_dlistint(const dlistint_t *h);
