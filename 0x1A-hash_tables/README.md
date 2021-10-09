@@ -8,8 +8,8 @@
 0. function that creates a hash table.
 1. function that implements the djb2 hash function algorithm.
 2. function that returns index of a key.
-3. function that adds an element to hash table.
-4. function that retrieves a value given a key.
+3. function that adds an element to the hash table.
+4. function that retrieves a value associated with a key.
 5. function that prints a hast table.
 6. function that deletes a hash table.
 
