@@ -16,8 +16,8 @@
 
 ## Languages and Tools:
 
-	OS: Ubuntu 20.04 LTS
-	Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
+- OS: Ubuntu 20.04 LTS
+- Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
 
 <p align="left"> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> </p>
 
