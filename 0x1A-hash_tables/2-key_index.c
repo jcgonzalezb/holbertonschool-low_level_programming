@@ -9,20 +9,15 @@
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	unsigned int hash;
-	unsigned int i;
-
-	hash = 0;
-	i = 0;
+	unsigned int index = 0;
 
 	if (!key)
 		return (0);
 
-	while (key && key[i])
-	{
-		hash = (hash + key[i]) % size;
-		++i;
-	}
-	return (hash);
-}
+	if (size == 0)
+		return (0);
 
+	index = hash_djb2(key) % size;
+
+	return (index);
+}
