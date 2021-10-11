@@ -39,7 +39,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 }
 
 /**
- * new_add_node - function that creates and adds an node to the hash table.
+ * new_add_node - function that creates and adds a node to the hash table.
  * @ht:  Hash table you want to add or update the key/value to.
  * @key: The key to add to the hash table.
  * @value: s the value associated with the key. value must be duplicated.
