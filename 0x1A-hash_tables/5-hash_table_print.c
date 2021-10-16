@@ -13,6 +13,9 @@ void hash_table_print(const hash_table_t *ht)
 
 	if (!ht || !ht->array)
 		return;
+	
+	if (ht == NULL)
+		return; 
 
 	putchar('{');
 	while (i < lenght_ht)
