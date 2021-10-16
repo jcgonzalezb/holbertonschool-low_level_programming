@@ -11,10 +11,8 @@ void hash_table_print(const hash_table_t *ht)
 	unsigned long int lenght_ht = ht->size;
 	char *comma = "";
 
-	if (ht == NULL)
-	{
+	if (!ht || !ht->array)
 		return;
-	}
 
 	putchar('{');
 	while (i < lenght_ht)
