@@ -7,15 +7,14 @@
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i = 0;
-	hash_node_t *node = NULL;
-	unsigned long int lenght_ht = ht->size;
+	hash_node_t *node;
 	char *comma = "";
 
 	if (!ht || !ht->array)
 		return;
 
 	printf("{");
-	while (i < lenght_ht)
+	while (i < ht->size)
 	{
 		node = ((ht->array)[i]);
 		while (node)
