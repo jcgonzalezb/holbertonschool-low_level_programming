@@ -20,3 +20,5 @@ fclean:
 
 re:	FORCE
 	make $(SRC)
+
+FORCE:
