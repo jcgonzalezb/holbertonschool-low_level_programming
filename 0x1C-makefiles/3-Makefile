@@ -18,5 +18,5 @@ oclean:
 fclean:
 	$(RM) $(OBJ) $(NAME) *~
 
-re:
-	FORCE make $(SRC)
+re:	FORCE
+	make $(SRC)
