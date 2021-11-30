@@ -11,7 +11,7 @@ all: $(NAME)
 	$(CC) -c -o $@ $<
 
 $(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 
 clean:
 	rm -f $(OBJ) $(NAME) *~
