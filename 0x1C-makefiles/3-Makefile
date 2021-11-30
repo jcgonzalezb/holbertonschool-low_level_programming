@@ -1,4 +1,4 @@
-.PHONY: all school clean oclean fclean re
+.PHONY: all clean oclean fclean re
 
 CC = gcc
 SRC = main.c school.c
