@@ -19,4 +19,4 @@ fclean:
 	$(RM) $(OBJ) $(NAME) *~
 
 re:
-	make $(SRC)
+	FORCE make $(SRC)
