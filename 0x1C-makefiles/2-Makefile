@@ -11,4 +11,4 @@ $(NAME): m.h $(SRC) $(OBJ)
 	$(CC) -o $(NAME) $(OBJ)
 
 clean:
-	rm -f $(NAME) $(OBJ) *~
+	rm -f $(NAME) $(OBJ)
