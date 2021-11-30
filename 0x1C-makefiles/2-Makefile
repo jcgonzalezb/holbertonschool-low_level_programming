@@ -7,8 +7,8 @@ NAME = school
 
 all: $(NAME)
 
-school: m.h $(SRC)
-	$(CC) -o $(NAME) $(SRC)
+school: m.h $(SRC) $(OBJ)
+	$(CC) -o $(NAME) $(SRC) $(OBJ)
 
 clean:
 	rm -f school *~
