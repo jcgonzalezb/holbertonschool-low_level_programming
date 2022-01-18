@@ -9,15 +9,15 @@
 void print_array(int *array, size_t left, size_t right)
 {
 	size_t i = 0;
-	
+
 	printf("Searching in array: ");
 	for (i = left; i <= right; i++)
-		{
-			if (i != right)
-				printf("%d, ", array[i]);
-			else
-				printf("%d\n", array[i]);
-		}
+	{
+		if (i != right)
+			printf("%d, ", array[i]);
+		else
+			printf("%d\n", array[i]);
+	}
 }
 
 /**
