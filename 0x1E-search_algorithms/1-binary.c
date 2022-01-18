@@ -1,6 +1,26 @@
 #include "search_algos.h"
 
 /**
+ * print_array - Function that prints ana rray.
+ * @array: Pointer to the first element of the array to search in.
+ * @left:  Left index of the original array.
+ * @right: Right index of the original array.
+ */
+void print_array(int *array, size_t left, size_t right)
+{
+	size_t i = 0;
+	
+	printf("Searching in array: ");
+	for (i = left; i <= right; i++)
+		{
+			if (i != right)
+				printf("%d, ", array[i]);
+			else
+				printf("%d\n", array[i]);
+		}
+}
+
+/**
  * binary_search - Function that searches for a value in an
  * array of integers using the Binary search algorithm.
  * @array: Pointer to the first element of the array to search in.
@@ -11,42 +31,24 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-	size_t high = size - 1, low = 0, middle, x = 0, y = size - 1;
+	size_t right = size - 1, left = 0, middle = 0;
 
 	if (array == NULL || size < 1)
 		return (-1);
 
-	printf("Searching in array: ");
-	for (x = low; x < y; x++)
+	while (left <= right)
 	{
-		printf("%d, ", array[x]);
-	}
-	printf("%d\n", array[x]);
-
-	while (low < high)
-	{
-		middle = low + (high - low) / 2;
+		print_array(array, left, right);
+		middle = left + (right - left) / 2;
 		if (array[middle] == value)
 			return (middle);
 		else if (array[middle] > value)
 		{
-			high = middle - 1, y = high;
-			printf("Searching in array: ");
-			for (x = low; x < y; x++)
-			{
-				printf("%d, ", array[x]);
-			}
-			printf("%d\n", array[x]);
+			right = middle - 1;
 		}
 		else
 		{
-			low = middle + 1, y = high;
-			printf("Searching in array: ");
-			for (x = low; x < y; x++)
-			{
-				printf("%d, ", array[x]);
-			}
-			printf("%d\n", array[y]);
+			left = middle + 1;
 		}
 	}
 	return (-1);
