@@ -59,7 +59,7 @@ int binary_search(int *array, size_t size, int value)
 			{	
 				printf("%d, ", array[x]);
 			}
-			printf("%d", array[x]);
+			printf("%d", array[y]);
 			printf("\b\b\n");
 		}
 	}
