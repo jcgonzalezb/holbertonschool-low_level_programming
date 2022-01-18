@@ -13,7 +13,7 @@ int binary_search(int *array, size_t size, int value)
 {
 	size_t high = size - 1, low = 0, middle, x = 0, y = size - 1;
 
-	if (array == NULL)
+	if (array == NULL || size < 1)
 		return (-1);
 
 	printf("Searching in array: ");
