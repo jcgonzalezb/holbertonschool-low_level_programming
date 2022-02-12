@@ -3,6 +3,7 @@
 ## Description of the files and folders inside this folder:
 
 - main_files: Folder with main programs to showcase sample function usage.
+- search_algos.h: Header file with all function prototypes.
 
 
 0. Function that searches for a value in an array of integers using the Linear search algorithm.
