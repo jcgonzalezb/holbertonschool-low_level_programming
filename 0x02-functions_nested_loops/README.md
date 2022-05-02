@@ -2,6 +2,8 @@
 
 ## Description of the files inside this folder:
 
+- holberton.h: Header file with all function prototypes.
+
 0. Write a program that prints Holberton, followed by a new line.
 1. Write a function that prints the alphabet, in lowercase, followed by a new line.
 2. Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
