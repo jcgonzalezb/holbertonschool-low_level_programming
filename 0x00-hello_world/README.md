@@ -1,10 +1,6 @@
-# C - Search Algorithms
+# C - Hello, World
 
-## Description of the files and folders inside this folder:
-
-- main_files: Folder with main programs to showcase sample function usage.
-- search_algos.h: Header file with all function prototypes.
-
+## Description of the files inside this folder:
 
 0. Write a script that runs a C file through the preprocessor and save the result into another file.
 1. Write a script that compiles a C file but does not link.
@@ -32,10 +28,4 @@
 
 - Juan Camilo González <a href="https://twitter.com/juankter" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="juankter" height="30" width="40" /></a>
 <a href="https://bit.ly/2MBNR0t" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://bit.ly/2mbnr0t" height="30" width="40" /></a>
-
-
-
-
-
-
 
