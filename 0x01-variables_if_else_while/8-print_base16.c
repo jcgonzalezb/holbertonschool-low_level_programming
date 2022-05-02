@@ -7,17 +7,18 @@
 int main(void)
 {
 
-char l;
-int c = '0';
-while (c <= '9')
-{
-putchar(c);
-c++;
-}
-for (l = 'a'; l <= 'f'; ++l)
-putchar(l);
+	char l;
+	int c = '0';
 
-putchar('\n');
-return (0);
+	while (c <= '9')
+	{
+		putchar(c);
+		c++;
+	}
+	for (l = 'a'; l <= 'f'; ++l)
+		putchar(l);
+
+	putchar('\n');
+	return (0);
 
 }
