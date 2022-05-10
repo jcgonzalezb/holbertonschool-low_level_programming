@@ -1,4 +1,4 @@
-# C - Functions, nested loops
+# C - Debugging
 
 ## Description of the files inside this folder:
 
