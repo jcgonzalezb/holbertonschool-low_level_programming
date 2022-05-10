@@ -9,12 +9,12 @@
 int _strlen(char *s)
 {
 
-int i = 0;
+	int i = 0;
 
-while (s[i] != '\0')
-i++;
+	while (s[i] != '\0')
+		i++;
 
-return (i);
+	return (i);
 
 }
 
@@ -29,10 +29,11 @@ return (i);
 void puts2(char *str)
 {
 
-int i = 0;
-for (i = 0; str[i] != '\0' && i < _strlen(str); i = i + 2)
-_putchar(str[i]);
+	int i = 0;
 
-_putchar('\n');
+	for (i = 0; str[i] != '\0' && i < _strlen(str); i = i + 2)
+		_putchar(str[i]);
+
+	_putchar('\n');
 
 }
