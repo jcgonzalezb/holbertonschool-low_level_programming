@@ -10,10 +10,10 @@
 void print_line(int n)
 {
 
-int a = n;
+	int a = n;
 
-for (a = n; a > 0 ; a--)
-_putchar('_');
-_putchar('\n');
+	for (a = n; a > 0 ; a--)
+		_putchar('_');
+	_putchar('\n');
 
 }
