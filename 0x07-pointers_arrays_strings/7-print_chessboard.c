@@ -9,17 +9,17 @@
 void print_chessboard(char (*a)[8])
 {
 
-int fil;
-int col;
+	int fil;
+	int col;
 
 
-for (fil = 0; fil < 8; fil++)
-{
-for (col = 0; col < 8; col++)
-{
-_putchar(a[fil][col]);
-}
-_putchar('\n');
-}
+	for (fil = 0; fil < 8; fil++)
+	{
+		for (col = 0; col < 8; col++)
+			{
+				_putchar(a[fil][col]);
+			}
+		_putchar('\n');
+	}
 
 }

@@ -11,25 +11,25 @@
 unsigned int _strspn(char *s, char *accept)
 {
 
-unsigned int i;
-char *accept_p;
+	unsigned int i;
+	char *accept_p;
 
 
-for (i = 0; s[i]; ++i)
-{
+	for (i = 0; s[i]; ++i)
+	{
 
-for (accept_p = accept; *accept_p; ++accept_p)
-{
+		for (accept_p = accept; *accept_p; ++accept_p)
+		{
 
-if (s[i] == *accept_p)
-{
-break;
-}
-}
+			if (s[i] == *accept_p)
+			{
+				break;
+			}
+		}
 
-if (!*accept_p)
-break;
-}
+		if (!*accept_p)
+			break;
+	}
 
-return (i);
+	return (i);
 }
