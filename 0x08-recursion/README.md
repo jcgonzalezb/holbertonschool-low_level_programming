@@ -1,4 +1,4 @@
-# C - Even more pointers, arrays and strings
+# C - Recursion
 
 ## Description of the files inside this folder:
 
