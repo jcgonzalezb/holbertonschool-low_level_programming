@@ -11,14 +11,14 @@
 
 bool is_num(char *argvv)
 {
-int a = 0;
+	int a = 0;
 
-for (a = 0; argvv[a]; a++)
-{
-if (!(argvv[a] >= '0' && argvv[a] <= '9'))
-return (0);
-}
-return (1);
+	for (a = 0; argvv[a]; a++)
+	{
+		if (!(argvv[a] >= '0' && argvv[a] <= '9'))
+			return (0);
+	}
+	return (1);
 }
 
 /**
@@ -30,29 +30,29 @@ return (1);
 
 int main(int argc, char *argv[])
 {
-int i = 1;
-int sum = 0;
+	int i = 1;
+	int sum = 0;
 
-/* validate input */
-if (argc == 1)
-{
-printf("0\n");
-return (0);
-}
+	/* validate input */
+	if (argc == 1)
+	{
+		printf("0\n");
+		return (0);
+	}
 
-/* check all arguments to add numbers */
-while (i < argc)
-{
-if (is_num(argv[i]))
-sum += atoi(argv[i]);
-else
-{
-printf("Error\n");
-return (1);
-}
-i++;
-}
-printf("%d\n", sum);
+	/* check all arguments to add numbers */
+	while (i < argc)
+	{
+		if (is_num(argv[i]))
+			sum += atoi(argv[i]);
+		else
+		{
+			printf("Error\n");
+			return (1);
+		}
+		i++;
+	}
+	printf("%d\n", sum);
 
-return (0);
+	return (0);
 }
