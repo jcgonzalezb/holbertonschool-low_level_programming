@@ -2,7 +2,7 @@
 
 ## Description of the files inside this folder:
 
-- holberton.h: Header file with all function prototypes.
+- function_pointers.h: Header file with all function prototypes.
 
 0. Write a function that prints a name.
 1. Write a function that executes a function given as a parameter on each element of an array.
