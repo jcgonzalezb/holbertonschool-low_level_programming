@@ -1,4 +1,4 @@
-# C - Pointers, arrays and strings
+# C - More singly linked lists
 
 ## Description of the files inside this folder:
 
