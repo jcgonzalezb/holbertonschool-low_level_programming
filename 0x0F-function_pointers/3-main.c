@@ -12,25 +12,25 @@
 int main(int argc, char *argv[])
 {
 
-int (*operation)(int, int);
+	int (*operation)(int, int);
 
-if (argv == NULL)
-return (0);
+	if (argv == NULL)
+		return (0);
 
-if (argc != 4)
-{
-printf("Error\n");
-exit(98);
-}
+	if (argc != 4)
+	{
+		printf("Error\n");
+		exit(98);
+	}
 
-operation = get_op_func(argv[2]);
+	operation = get_op_func(argv[2]);
 
-if (operation == NULL || (argv[2][1] != '\0'))
-{
-printf("Error\n");
-exit(99);
-}
+	if (operation == NULL || (argv[2][1] != '\0'))
+	{
+		printf("Error\n");
+		exit(99);
+	}
 
-printf("%d\n", operation(atoi(argv[1]), atoi(argv[3])));
-return (0);
+	printf("%d\n", operation(atoi(argv[1]), atoi(argv[3])));
+	return (0);
 }

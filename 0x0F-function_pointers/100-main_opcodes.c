@@ -12,36 +12,36 @@
 int main(int argc, char *argv[])
 {
 
-char *b;
-int y;
-int x;
+	char *b;
+	int y;
+	int x;
 
-if (argc != 2)
-{
-printf("Error\n");
-return (1);
-}
+	if (argc != 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
 
-x = atoi(argv[1]);
-if (x < 0)
-{
-printf("Error\n");
-return (2);
-}
-b = (char *)main;
+	x = atoi(argv[1]);
+	if (x < 0)
+	{
+		printf("Error\n");
+		return (2);
+	}
+	b = (char *)main;
 
-for (y = 0; y < x; y++)
-{
-if (y < x - 1)
-{
-	printf("%.2hhx ", b[y]);
-}
-else
-{
-	printf("%.2hhx", b[y]);
-}
+	for (y = 0; y < x; y++)
+	{
+		if (y < x - 1)
+		{
+			printf("%.2hhx ", b[y]);
+		}
+		else
+		{
+			printf("%.2hhx", b[y]);
+		}
 
-}
-printf("\n");
-return (0);
+	}
+	printf("\n");
+	return (0);
 }
