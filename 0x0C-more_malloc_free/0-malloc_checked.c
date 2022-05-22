@@ -11,16 +11,16 @@
 void *malloc_checked(unsigned int b)
 {
 
-void *memory_address;
+	void *memory_address;
 
-if (b <= 0)
-return (NULL);
+	if (b <= 0)
+		return (NULL);
 
-memory_address = malloc(b);
+	memory_address = malloc(b);
 
-if (memory_address == NULL)
-exit(98);
+	if (memory_address == NULL)
+		exit(98);
 
-return (memory_address);
+	return (memory_address);
 
 }
