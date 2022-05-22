@@ -14,8 +14,8 @@
  */
 typedef struct printc
 {
-char symbol;
-void (*f)(va_list);
+	char symbol;
+	void (*f)(va_list);
 } printc_f;
 
 
