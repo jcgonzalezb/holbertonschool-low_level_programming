@@ -30,7 +30,7 @@ char *_strstr(char *haystack, char *needle);
 1. Create a script that creates a dynamic library called liball.so from all the .c files that are in the directory.
 2. Write a blog post describing the differences between static and dynamic libraries.
 
-Link to the blog post:
+Links to the blog post:
 - https://www.linkedin.com/feed/update/urn:li:activity:6847309281147150336/
 - https://3388.medium.com/how-to-create-and-use-dynamic-libraries-in-c-language-82343236d999
 
