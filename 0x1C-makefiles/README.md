@@ -80,9 +80,11 @@
 - OS: Ubuntu 20.04 LTS
 - Language: C17 (C standard revision) (__STDC_VERSION__ --> 201710L)
 - Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
+- Language: Python 3.8.10
+- Style guidelines: [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 
 <p align="left"> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> </p>
-
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 ## Author
 
