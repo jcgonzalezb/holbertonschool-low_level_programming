@@ -1,17 +1,16 @@
 # C - Hash tables
 
-## Description of the files and folders inside this folder:
+## Description of the files inside this folder:
 
-- main_files: Folder with main programs to showcase sample function usage.
 - hash_tables.h: Header file with all function prototypes.
 
-0. function that creates a hash table.
-1. function that implements the djb2 hash function algorithm.
-2. function that returns index of a key.
-3. function that adds an element to the hash table.
-4. function that retrieves a value associated with a key.
-5. function that prints a hash table.
-6. function that deletes a hash table.
+0. Function that creates a hash table.
+1. Function that implements the djb2 hash function algorithm.
+2. Function that returns index of a key.
+3. Function that adds an element to the hash table.
+4. Function that retrieves a value associated with a key.
+5. Function that prints a hash table.
+6. Function that deletes a hash table.
 
 
 ## Languages and Tools:
